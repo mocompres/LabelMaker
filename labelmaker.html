@@ -1,0 +1,69 @@
+<doctype! html>
+<html>
+<head>
+<title>LabelMaker 1.0</title>
+<style>
+
+body {
+   font-family: Arial;
+}
+
+.label {
+   width: 6cm;
+   height: 6cm;
+   border: 1px solid black;
+   padding: 15px 5px 5px 10px;
+}
+
+.labelInfoBox {
+  border-left: 3px solid red;
+  padding-left: 5px;
+  padding-top: 1px;
+  margin-bottom: 5px;
+}
+
+.labelInfoBox label {
+  margin-bottom: -5px;
+  display: block;
+}
+
+.labelImageFrame {
+  width: 2.5cm;
+  height: 2.5cm;
+  border: 1px solid black;
+}
+
+.fontSizeSmall {
+  font-size: 10px;
+}
+
+.labelPrice {
+   border-left: 3px solid black;
+   margin-top: 10px;
+   padding: 10px 10px 10px 10px;
+}
+
+</style>
+</head>
+<body>
+<div class="label">
+  <div style="float: left;">
+   <div class="labelInfoBox">
+       <strong><label id="Brand">Bell</label> <br />
+       <label id="Model">Catalyse Mips</label></strong>  <br />
+       <label id="HelmetColor" class="fontSizeSmall">Mat Sort</label> <br />
+       <label id="HelmetSize" class="fontSizeSmall">59-63 cm</label>  <br />
+   </div>
+   <div class="labelPrice">
+       <label>1599 Kr</label>
+   </div>
+  </div>
+  <div style="float: right;">
+   <div class="labelImageFrame">
+   </div>
+   <label>117078047</label>
+  </div>
+</div>
+
+</body>
+</html>
